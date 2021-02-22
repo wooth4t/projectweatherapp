@@ -1,0 +1,14 @@
+footer {
+    font-size: 13px;
+    text-align: right;
+}
+
+.external {
+    max-width: 600px;
+    display: block;
+    margin: 60px auto;
+}
+
+.container {
+    border: 1px solid #DFE7EA;
+}

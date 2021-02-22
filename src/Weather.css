@@ -1,0 +1,14 @@
+h1 {
+    font-size: 28px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
