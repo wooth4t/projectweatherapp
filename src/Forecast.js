@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 //import WeatherIcon from "./WeatherIcon";
+import RunForecast from "./RunForecast";
 import axios from "axios";
 
 import "./Forecast.css";
@@ -18,11 +19,13 @@ export default function Forecast(props) {
 			if (loaded) {
 				return (
 					<div className="Forecast">
-					<div className="row">
-						<span className="col-4 MiniTime">{new Date(forecast.list[0].dt * 1000).getHours()}:00</span>
-						<span className="col-4 MiniIcon">{forecast.list[0].weather[0].icon}</span>
-						<span className="col 4 MiniTemperature">{Math.round(forecast.list[0].main.temp)} °C</span>
-					</div>
+						<div className="forecast-container">
+						<RunForecast data={forecast.list[0]}/>
+						<RunForecast data={forecast.list[1]}/>
+						<RunForecast data={forecast.list[2]}/>
+						<RunForecast data={forecast.list[3]}/>
+						<RunForecast data={forecast.list[4]}/>
+						</div>
 				</div>
 				);
     } else {

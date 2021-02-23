@@ -1,12 +1,10 @@
-
 .inner {
     border: 1px solid #84a9ac4d;
     background: linear-gradient(0.5turn, #f1f3f3, #c1d2da, #f1f3f3);
     border-radius: 4px;
     display: block;
     margin: 0 auto;
-    padding: 30px;
-
+    padding: 30px 30px 20px 40px;
 }
 
 .Weather .card-left, .card-right, .current, .col-9, .col-3 {
@@ -14,33 +12,34 @@
 }
 
 .Weather h1, h3 {
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
+    font-weight: 900;
+    line-height: 24px;
+    margin: 5px;
 }
 
-.Weather h1 {
-    font-weight: bold;
-    line-height: 24px;
+.Weather .searchedCity {
+    padding-bottom: 20px;
 }
 
 .Weather h2 {
     font-size: 14px;
     font-weight: 18px;
     line-height: 11px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
 .Weather .icon {
     position: relative;
-    top: -5px;
+    top: -8px;
     text-align: right;
 }
 
 .Weather h3 {
     display: inline;
     font-size: 38px;
-    text-align: left;
 }
 
 .Weather .units {
@@ -49,7 +48,6 @@
     position: relative;
     top: -16px;
 }
-
 
 .Weather ul {
     padding: 0;
@@ -66,7 +64,6 @@
     text-decoration: line;
    }
 
-   
 .Weather footer {
     color: rgb(124, 124, 124);
     font-size: 9px;
@@ -88,5 +85,4 @@
     border: 1px solid #3b6978;
     box-shadow: 2px 2px 2px rgb(158, 157, 157);
     vertical-align: baseline;
-
 }
