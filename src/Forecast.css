@@ -1,0 +1,17 @@
+.Forecast .MiniTime, .MiniIcon, .MiniTemperature {
+  font-size: 16px;
+  padding: 0;
+}
+
+.Forecast .MiniTime {
+  text-align: right;
+}
+
+.Forecast .MiniIcon {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.Forecast .MiniTemperature {
+  text-align: left;
+}
