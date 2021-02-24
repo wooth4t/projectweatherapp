@@ -1,0 +1,25 @@
+.MiniTime, .MiniTemperature {
+  font-size: 16px;
+  padding: 0;
+}
+
+.RunForecast .MiniTime {
+  text-align: right;
+}
+
+.RunForecast .MiniIcon {
+  padding: 0;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.RunForecast img {
+  margin: 0 auto;
+  max-height: 35px;
+  padding: 0;
+  vertical-align: -20px;
+}
+
+.RunForecast .MiniTemperature {
+  text-align: left;
+}

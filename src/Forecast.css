@@ -2,7 +2,7 @@
   padding: 12px 0 0 0;
 }
 
-.MiniTime, .MiniIcon, .MiniTemperature {
+.MiniTime, .MiniTemperature {
   font-size: 16px;
   padding: 0;
 }
@@ -11,7 +11,9 @@
   text-align: right;
 }
 
-.Forecast .MiniIcon {
+.Forecast .icon {
+  font-size: 12px;
+  padding: 0;
   text-align: center;
 }
 
