@@ -39,6 +39,10 @@
     padding-right: 5px;
 }
 
+.Weather .current {
+    padding-left: 20px;
+}
+
 .Weather h3 {
     display: inline;
     font-size: 38px;
