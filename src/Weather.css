@@ -7,9 +7,10 @@
     padding: 30px 30px 20px 40px;
 }
 
-.Weather .card-left, .card-right, .current, .col-9, .col-3 {
+.Weather .card-left, .card-right, .current, .col-6, .col-9, .col-3 {
     padding: 0;
 }
+
 
 .Weather h1, h3 {
     font-size: 23px;
@@ -31,11 +32,11 @@
     text-align: center;
 }
 
-.Weather .icon {
+.Weather .MainIcon {
     position: relative;
     top: -8px;
-    text-align: center;
-    padding-right: 0 5px;
+    right: -30px;
+    padding-right: 5px;
 }
 
 .Weather h3 {

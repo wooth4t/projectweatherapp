@@ -11,7 +11,7 @@ export default function RunForecast(props) {
       </span>
 		  <span className="col-4 MiniIcon">
         <img 
-          className="icon" 
+          className="MiniIcon" 
           src={`https://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`}
           alt={props.data.weather[0].description} 
         />

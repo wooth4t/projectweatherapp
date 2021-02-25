@@ -53,7 +53,7 @@ function search() {
                   <FormattedDate date={weatherData.date} />
             
                   <div className="row">
-                      <div className="col-6 icon"><img className="icon" src={weatherData.iconUrl} alt={weatherData.description} /></div>
+                      <div className="col-6"><img className="MainIcon" src={weatherData.iconUrl} alt={weatherData.description} /></div>
                       <div className="col-6 current">  
                           <WeatherTemperature celsius={weatherData.temperature} />
                           <ul>
