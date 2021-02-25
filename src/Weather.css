@@ -34,9 +34,11 @@
 
 
 .Weather .MainIcon {
-    display: block;
-    margin: 0 0 0 20px;
-    padding: 0;
+    display: inline-block;
+    position: relative;
+    right: -20px;
+    top: -20px;
+    
 }
 
 .Weather .current {

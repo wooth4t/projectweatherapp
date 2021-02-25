@@ -1,6 +1,7 @@
 .MiniTime, .MiniTemperature {
   font-size: 16px;
   padding: 0;
+  vertical-align: bottom;
 }
 
 .RunForecast .MiniTime {
@@ -17,7 +18,8 @@
   margin: 0 auto;
   max-height: 35px;
   padding: 0;
-  vertical-align: -20px;
+  position: relative;
+  top: -6px;
 }
 
 .RunForecast .MiniTemperature {
