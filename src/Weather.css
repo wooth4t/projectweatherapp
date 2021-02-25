@@ -34,7 +34,7 @@
 .Weather .icon {
     position: relative;
     top: -8px;
-    text-align: right;
+    text-align: center;
     padding-right: 0 5px;
 }
 
