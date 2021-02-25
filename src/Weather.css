@@ -4,7 +4,7 @@
     border-radius: 4px;
     display: block;
     margin: 0 auto;
-    padding: 30px 30px 20px 40px;
+    padding: 30px 30px 20px 30px;
 }
 
 .Weather .card-left, .card-right, .current, .col-6, .col-9, .col-3 {
@@ -28,25 +28,23 @@
     font-size: 14px;
     font-weight: 18px;
     line-height: 11px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
+
 .Weather .MainIcon {
-    position: relative;
-    top: -8px;
-    right: -20px;
-    padding-right: 5px;
+    display: block;
+    margin: 0 0 0 20px;
+    padding: 0;
 }
 
-.Weather .current {
-    padding-left: 10px;
-}
 
 .Weather h3 {
-    display: inline;
+    display: block;
     font-size: 38px;
     margin: 0;
+    text-align: left;
 }
 
 .Weather .units {

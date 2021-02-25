@@ -51,7 +51,6 @@ function search() {
           
               <div className="col-6 card-left">
                   <FormattedDate date={weatherData.date} />
-            
                   <div className="row">
                       <div className="col-6"><img className="MainIcon" src={weatherData.iconUrl} alt={weatherData.description} /></div>
                       <div className="col-6 current">  
@@ -63,7 +62,6 @@ function search() {
                           </ul>
                       </div>
                   </div>
-
               </div>
 
               <div className="col-6 card-right">
